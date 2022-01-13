@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorld2
+namespace HelloWorld1
 {
     internal class Program
     {
