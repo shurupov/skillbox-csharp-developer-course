@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{574E0C43-AC17-4237-9512-9B11113B3D84}</ProjectGuid>
+        <ProjectGuid>{A32DEC40-E883-4A8E-AE84-E5B79FE0D97D}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>HelloWorld2</RootNamespace>
-        <AssemblyName>HelloWorld2</AssemblyName>
+        <RootNamespace>HelloWorld1</RootNamespace>
+        <AssemblyName>HelloWorld1</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
