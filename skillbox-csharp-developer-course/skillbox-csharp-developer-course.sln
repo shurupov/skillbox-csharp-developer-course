@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework-1", "homework-1", "{8B4E9A32-F298-452C-96AD-EA1C8C583FA0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework-01", "homework-01", "{8B4E9A32-F298-452C-96AD-EA1C8C583FA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "homework-1\HelloWorld\HelloWorld.csproj", "{572CBD0C-D1BB-49E3-98AE-D59314CE9A4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "homework-01\HelloWorld\HelloWorld.csproj", "{572CBD0C-D1BB-49E3-98AE-D59314CE9A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld1", "homework-1\HelloWorld1\HelloWorld1.csproj", "{A32DEC40-E883-4A8E-AE84-E5B79FE0D97D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld1", "homework-01\HelloWorld1\HelloWorld1.csproj", "{A32DEC40-E883-4A8E-AE84-E5B79FE0D97D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
