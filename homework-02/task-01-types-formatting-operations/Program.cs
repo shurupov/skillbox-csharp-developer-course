@@ -22,9 +22,13 @@ namespace task_01_types
 
             Console.ReadKey();
 
-            double average = (double) (programmingScores + mathScores + physicsScores) / 3;
-            
+            int sum = programmingScores + mathScores + physicsScores;
+            Console.WriteLine($"{"Сумма баллов:", 26} {sum}");
+
+            double average = (double) sum / 3;
             Console.WriteLine($"{"Средний балл:", 26} {average}");
+            
+            Console.ReadKey();
         }
     }
 }
