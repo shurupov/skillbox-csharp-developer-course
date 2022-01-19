@@ -9,9 +9,10 @@ namespace task_03_prime_number
             Console.WriteLine("Введите число");
             uint number = uint.Parse(Console.ReadLine());
             bool isPrime = true;
-            for (uint i = 2; i < number; i++)
+            uint i = 2;
+            while (i < number)
             {
-                if (number % i == 0)
+                if (number % i++ == 0)
                 {
                     isPrime = false;
                     break;
