@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-odd-even", "homewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-blackjack", "homework-3\task-02-blackjack\task-02-blackjack.csproj", "{72BB3495-5D3C-4708-8267-7E79C8879041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-03-prime-number", "homework-3\task-03-prime-number\task-03-prime-number.csproj", "{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,7 @@ Global
 		{AE832169-6026-4BA9-80B3-78B60DA9E115} = {1A68F1F3-1A6C-462B-BBCA-BC80D5FFBD21}
 		{E997DD19-F253-485C-9101-4699F1B4F97D} = {86ADBE4D-B0C4-495D-9B6A-3403D168412A}
 		{72BB3495-5D3C-4708-8267-7E79C8879041} = {86ADBE4D-B0C4-495D-9B6A-3403D168412A}
+		{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB} = {86ADBE4D-B0C4-495D-9B6A-3403D168412A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{572CBD0C-D1BB-49E3-98AE-D59314CE9A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,5 +52,9 @@ Global
 		{72BB3495-5D3C-4708-8267-7E79C8879041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BB3495-5D3C-4708-8267-7E79C8879041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BB3495-5D3C-4708-8267-7E79C8879041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
