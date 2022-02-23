@@ -12,11 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-types-formatting-op
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework-03", "homework-03", "{86ADBE4D-B0C4-495D-9B6A-3403D168412A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-odd-even", "homework-3\task-01-odd-even\task-01-odd-even.csproj", "{E997DD19-F253-485C-9101-4699F1B4F97D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-odd-even", "homework-03\task-01-odd-even\task-01-odd-even.csproj", "{E997DD19-F253-485C-9101-4699F1B4F97D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-blackjack", "homework-3\task-02-blackjack\task-02-blackjack.csproj", "{72BB3495-5D3C-4708-8267-7E79C8879041}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-blackjack", "homework-03\task-02-blackjack\task-02-blackjack.csproj", "{72BB3495-5D3C-4708-8267-7E79C8879041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-03-prime-number", "homework-3\task-03-prime-number\task-03-prime-number.csproj", "{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-03-prime-number", "homework-03\task-03-prime-number\task-03-prime-number.csproj", "{1CD5C3AA-7E82-4BA6-A264-57B8CC98BFBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
