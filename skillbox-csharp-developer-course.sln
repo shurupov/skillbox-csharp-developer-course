@@ -26,6 +26,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-find-minimum", "hom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-03-guess-number", "homework-04\task-03-guess-number\task-03-guess-number.csproj", "{86C9C182-0F0E-4111-896C-033F96617B09}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework-05", "homework-05", "{1C49AC17-DF3F-4D1A-8F71-D12C4EE34600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-split-line-method", "homework-05\task-01-split-line-method\task-01-split-line-method.csproj", "{A0A1B21B-DCF4-429E-B09E-6E766761068E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-reverse-words", "homework-05\task-02-reverse-words\task-02-reverse-words.csproj", "{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +47,8 @@ Global
 		{112F83BE-1814-4888-AEE2-CA137A65CCDC} = {79DC6E1E-E4DE-4645-BFD9-C4D4A89193DF}
 		{DB96100F-F6AA-4A52-B0E2-4056812919EC} = {79DC6E1E-E4DE-4645-BFD9-C4D4A89193DF}
 		{86C9C182-0F0E-4111-896C-033F96617B09} = {79DC6E1E-E4DE-4645-BFD9-C4D4A89193DF}
+		{A0A1B21B-DCF4-429E-B09E-6E766761068E} = {1C49AC17-DF3F-4D1A-8F71-D12C4EE34600}
+		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E} = {1C49AC17-DF3F-4D1A-8F71-D12C4EE34600}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{572CBD0C-D1BB-49E3-98AE-D59314CE9A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -79,5 +87,13 @@ Global
 		{86C9C182-0F0E-4111-896C-033F96617B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C9C182-0F0E-4111-896C-033F96617B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C9C182-0F0E-4111-896C-033F96617B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A1B21B-DCF4-429E-B09E-6E766761068E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A1B21B-DCF4-429E-B09E-6E766761068E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A1B21B-DCF4-429E-B09E-6E766761068E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A1B21B-DCF4-429E-B09E-6E766761068E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
