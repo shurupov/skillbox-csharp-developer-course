@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-split-line-method",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-02-reverse-words", "homework-05\task-02-reverse-words\task-02-reverse-words.csproj", "{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework-06", "homework-06", "{D3088850-221B-4873-969C-D90CB924707A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-01-files", "homework-06\task-01-files\task-01-files.csproj", "{99179B00-1FE2-4022-BA56-FA906F9EFB1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,7 @@ Global
 		{86C9C182-0F0E-4111-896C-033F96617B09} = {79DC6E1E-E4DE-4645-BFD9-C4D4A89193DF}
 		{A0A1B21B-DCF4-429E-B09E-6E766761068E} = {1C49AC17-DF3F-4D1A-8F71-D12C4EE34600}
 		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E} = {1C49AC17-DF3F-4D1A-8F71-D12C4EE34600}
+		{99179B00-1FE2-4022-BA56-FA906F9EFB1A} = {D3088850-221B-4873-969C-D90CB924707A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{572CBD0C-D1BB-49E3-98AE-D59314CE9A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -95,5 +100,9 @@ Global
 		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AC27508-96B5-4ABC-8A40-F6F35A2E791E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99179B00-1FE2-4022-BA56-FA906F9EFB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99179B00-1FE2-4022-BA56-FA906F9EFB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99179B00-1FE2-4022-BA56-FA906F9EFB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99179B00-1FE2-4022-BA56-FA906F9EFB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
