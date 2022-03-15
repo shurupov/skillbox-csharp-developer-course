@@ -16,15 +16,15 @@ namespace task_01_files
 
             if (key == ConsoleKey.D1)
             {
-                display();
+                Display();
             }
             else if (key == ConsoleKey.D2)
             {
-                append();
+                Append();
             }
         }
 
-        private static void display()
+        private static void Display()
         {
             StreamReader reader = new StreamReader(new BufferedStream(new FileStream(FilePath, FileMode.Open)));
             string line;
@@ -34,7 +34,7 @@ namespace task_01_files
             }
         }
 
-        private static void append()
+        private static void Append()
         {
             StreamWriter writer = new StreamWriter(new BufferedStream(new FileStream(FilePath, FileMode.Append)));
             int id = 0;
