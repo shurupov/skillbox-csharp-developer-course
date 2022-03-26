@@ -9,10 +9,10 @@ namespace task_01_struct
         public string Name;
         public int Age;
         public int Height;
-        public string BirthDate;
+        public DateTime BirthDate;
         public string BirthPlace;
 
-        public Employee(int id, DateTime created, string name, int age, int height, string birthDate, string birthPlace)
+        public Employee(int id, DateTime created, string name, int age, int height, DateTime birthDate, string birthPlace)
         {
             Id = id;
             Created = created;

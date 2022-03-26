@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 
 namespace task_01_struct
 {
@@ -9,6 +10,23 @@ namespace task_01_struct
         private const string FilePath = "/home/shurupov/csharp/file.txt";
         private const string TmpFilePath = "/home/shurupov/csharp/tmpfile.txt";
         private const string BackupFilePath = "/home/shurupov/csharp/backupfile.txt";
+        
+        public Employee[] DisplayAll()
+        {
+            int count = File.ReadLines(FilePath).Count();
+            Employee[] employees = new Employee[count];
+            int cursor = 0;
+            StreamReader reader = new StreamReader(new BufferedStream(new FileStream(FilePath, FileMode.Open)));
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                Employee employee = LineToEmployee(line);
+                employees[cursor++] = employee;
+            }
+            reader.Close();
+
+            return employees;
+        }
         
         public Employee Display(int id)
         {
@@ -82,9 +100,56 @@ namespace task_01_struct
             File.Delete(TmpFilePath);
         }
 
+        public Employee[] Search(DateTime from, DateTime to)
+        {
+            int count = File.ReadLines(FilePath).Count();
+            
+            Employee[] employees = new Employee[count];
+            int cursor = 0;
+            
+            StreamReader reader = new StreamReader(new BufferedStream(new FileStream(FilePath, FileMode.Open)));
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                Employee employee = LineToEmployee(line);
+                if (employee.BirthDate >= from && employee.BirthDate <= to)
+                {
+                    employees[cursor++] = employee;
+                }
+            }
+            reader.Close();
+            
+            Array.Resize(ref employees, cursor);
+            return employees;
+        }
+        
+        public Employee[] Sort(bool asc)
+        {
+            int count = File.ReadLines(FilePath).Count();
+            Employee[] employees = new Employee[count];
+            int cursor = 0;
+            StreamReader reader = new StreamReader(new BufferedStream(new FileStream(FilePath, FileMode.Open)));
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                Employee employee = LineToEmployee(line);
+                employees[cursor++] = employee;
+            }
+            reader.Close();
+            
+            Array.Sort(
+                employees, 
+                (employee1, employee2) => 
+                    (employee1.BirthDate < employee2.BirthDate && asc)
+                        || (employee1.BirthDate > employee2.BirthDate && !asc) ? -1 : 1
+            );
+
+            return employees;
+        }
+
         private string EmployeeToLine(Employee e)
         {
-            return $"{e.Id}#{e.Created}#{e.Name}#{e.Age}#{e.Height}#{e.BirthDate}#{e.BirthPlace}";
+            return $"{e.Id}#{e.Created}#{e.Name}#{e.Age}#{e.Height}#{e.BirthDate.ToShortDateString()}#{e.BirthPlace}";
         }
 
         private Employee LineToEmployee(string line)
@@ -96,7 +161,7 @@ namespace task_01_struct
                 values[2],
                 int.Parse(values[3]),
                 int.Parse(values[4]),
-                values[5],
+                DateTime.Parse(values[5]),
                 values[6]
             );
         }
