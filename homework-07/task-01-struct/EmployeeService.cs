@@ -49,8 +49,7 @@ namespace task_01_struct
         public void Add(Employee e)
         {
             StreamWriter writer = new StreamWriter(new BufferedStream(new FileStream(FilePath, FileMode.Append)));
-            DateTime now = new DateTime();
-            e.Created = new DateTime();
+            e.Created = DateTime.Now;
             writer.WriteLine(EmployeeToLine(e));
             writer.Close();
         }
